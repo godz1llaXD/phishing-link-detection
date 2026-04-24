@@ -1,0 +1,22 @@
+{
+    "model": "RandomForestClassifier",
+    "n_estimators": 200,
+    "max_depth": 20,
+    "features": [
+        "url_length",
+        "num_digits",
+        "num_special_chars",
+        "num_dots",
+        "num_hyphens",
+        "has_at",
+        "has_https",
+        "entropy",
+        "domain_length",
+        "path_length",
+        "query_length",
+        "subdomain_depth",
+        "num_params",
+        "has_fragment",
+        "ip_in_url"
+    ]
+}
