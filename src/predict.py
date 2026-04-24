@@ -5,8 +5,8 @@ import os
 sys.path.append(os.path.abspath(".."))
 from src.feature_extractor import extract_features
 
-MODEL_PATH = r"E:\file_main\Major_2\models\phishing_model.pkl"
-FEATURE_PATH = r"E:\file_main\Major_2\models\feature_columns.pkl"
+MODEL_PATH = "models/phishing_model.pkl"
+FEATURE_PATH = "models/feature_columns.pkl"
 
 model = joblib.load(MODEL_PATH)
 feature_columns = joblib.load(FEATURE_PATH)
