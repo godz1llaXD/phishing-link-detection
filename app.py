@@ -2,7 +2,7 @@ import sys
 import os
 
 # Ensure src is importable
-sys.path.append(os.path.abspath("."))
+sys.path.append(os.path.abspath(".."))
 
 import streamlit as st
 from src.predict import analyze_url
