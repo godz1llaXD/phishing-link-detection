@@ -14,6 +14,12 @@ The system was developed as part of a major academic project and follows a **com
 
 ---
 
+## Deployed on streamlit:
+
+<a href="https://phishing-link-detection.streamlit.app/" target="_blank">Link</a>
+
+---
+
 ## Objectives
 
 - Build a reliable phishing URL detection model  
